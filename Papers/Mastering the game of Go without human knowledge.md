@@ -62,6 +62,7 @@ At the end of the search, we select a move using *eq10*.
 
 1.  `np.random.dirichlet` can be used to draw simple from Dirichlet Distribution.
 2.  There is no pooling layer in the neural network. One neural network consists of residual blocks of convolutional layers with batch normalization and rectifier nonlinearities. There are two output from the network.
+3.  The subtree below this child is retained along with all its statistics, while the remainder of the tree is discarded. 
 
 ## Reference
 
