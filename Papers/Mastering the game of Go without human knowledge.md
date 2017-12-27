@@ -57,6 +57,8 @@ At the end of the search, we select a move using *eq10*.
 2.  Virtual loss $n_{\rm vl} = 3$
 3.  Expansion threshold $n_{\rm thr} = 40$
 4.  Exploration constant $c_{\rm puct} = 5$
+5.  Mini batch size 32
+6.  L2 regularization parameter $c = 10^{-4}$
 
 ### Tips
 
